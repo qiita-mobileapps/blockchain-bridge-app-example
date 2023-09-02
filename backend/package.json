@@ -1,0 +1,28 @@
+{
+  "name": "qiitaapp-blockchain-bridge-webhook",
+  "version": "1.0.0",
+  "description": "Qiita-Mobileapps Blockchain bridge webhook",
+  "main": "event-watcher.js",
+  "scripts": {
+    "start": "node handle-events.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiita-mobileapps/blockchain-bridge-simple-app.git"
+  },
+  "keywords": [
+    "blockchain",
+    "bridge",
+    "simple"
+  ],
+  "author": "Qiita-Mobileapps Application Development Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiita-mobileapps/blockchain-bridge-simple-app/issues"
+  },
+  "homepage": "https://github.com/qiita-mobileapps/blockchain-bridge-simple-app#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  }
+}
